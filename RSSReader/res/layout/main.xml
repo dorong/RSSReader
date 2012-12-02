@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/feedtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Android RSSReader" />
+
+    <TextView
+        android:id="@+id/feedpubdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/feedtitle"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/itemlist"
+        android:layout_width="218dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/feedpubdate" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="38dp"
+        android:src="@drawable/giants_logo" />
+
+</RelativeLayout>
