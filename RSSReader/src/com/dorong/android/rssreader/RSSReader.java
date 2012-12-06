@@ -76,6 +76,7 @@ public class RSSReader extends Activity implements OnItemClickListener
     	catch (Exception ee)
     	{
     		// if we have a problem, simply return null
+    		Log.e("doron", ee.toString());
     		return null;
     	}
     }
